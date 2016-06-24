@@ -3,7 +3,7 @@ Feature: Airlines website validation - AmericanAirlines
 
   Background: AmericanAirlines.in website functionality validation
     Given Init "firefox" browser
-    Given AmericanAirlines website under test "http://www.americanairlines.in" and short name is "AmericanAirlines"
+    Given AmericanAirlines website under test "https://www.americanairlines.in" and short name is "AmericanAirlines"
 
   #==================================================================================
   #==================================================================================
@@ -15,7 +15,7 @@ Feature: Airlines website validation - AmericanAirlines
 
     Examples: 
       | home page attribute list       | expected attribute value list                                                                                         |
-      | "home page URL"                | "http://www.americanairlines.in"                                                                                      |
+      | "home page URL"                | "https://www.americanairlines.in"                                                                                      |
       | "home page title"              | "Airline Tickets and Airline Reservations from American Airlines"                                                     |
       | "home page logo"               | "default AmericanAirlines logo"                                                                                       |
       | "home page loading time"       | "general home page loading time"                                                                                      |
