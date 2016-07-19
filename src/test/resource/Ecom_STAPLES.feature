@@ -61,8 +61,8 @@ Feature: Ecommerce website validation - STAPLES
 
   #==================================================================================
   Scenario Outline: STAPLES Generic item search menu navigation scenario validation
-    When STAPLES User invokes to category_1
-    When STAPLES User invokes to category_2
+    When STAPLES User invokes to <category_1>
+    When STAPLES User invokes to <category_2>
     When STAPLES User validates if available products are non empty
     When STAPLES User searches for sample products from <sample product>
     Then STAPLES Test result should be successful or log the error meessage

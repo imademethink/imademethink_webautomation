@@ -48,8 +48,8 @@ Feature: Ecommerce website validation - IndianGiftPortal
 
   #==================================================================================
   Scenario Outline: IndianGiftPortal Generic item search menu navigation scenario validation
-    When IndianGiftPortal User invokes to category_1
-    When IndianGiftPortal User invokes to category_2
+    When IndianGiftPortal User invokes to <category_1>
+    When IndianGiftPortal User invokes to <category_2>
     When IndianGiftPortal User validates if available products are non empty
     When IndianGiftPortal User searches for sample products from <sample product>
     Then IndianGiftPortal Test result should be successful or log the error meessage
