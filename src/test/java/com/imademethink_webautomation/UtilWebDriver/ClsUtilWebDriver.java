@@ -163,7 +163,7 @@ public class ClsUtilWebDriver extends ClsGeneralInitTerminateAndOtherUtil{
 					} else if (strGlobalDriverType.contains("opera")) {
 						// REAL_WEB_DRIVER 	= new OperaDriver();
 					} else if (strGlobalDriverType.contains("html unit driver")) {
-						// Unit driver or healess driver
+						// Unit driver or headless driver
 						REAL_WEB_DRIVER 	= new HtmlUnitDriver();
 					} else if (strGlobalDriverType.contains("android")) {
 						// REAL_WEB_DRIVER 	= new androidDriver();
