@@ -1,4 +1,4 @@
-@tkt_bus @desktop @redbus
+@tkt_bus @desktop    @redbus
 Feature: Travel ticket booking website validation - redbus
 
   Background: redBus.com website functionality validation
